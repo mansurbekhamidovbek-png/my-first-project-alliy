@@ -1,0 +1,47 @@
+*
+body {
+	background-color: rgb(19, 210, 244);
+}
+.th1, .th2 {
+	background-color: rgb(197, 243, 15);
+}
+.sell{
+	background-color: rgb(207, 203, 204);
+}
+.lot{
+	background-attachment: fixed;
+	
+}
+.lot:hover {
+	background-color: rgb(255, 255, 255);
+}
+	
+.box{
+	position: absolute;
+	top: 23%;
+	left: 4%;
+	}
+a{
+	text-decoration: none;
+	color: rgb(8, 240, 232);
+	text-shadow: 5px 5px 10px rgb(12, 10, 10);
+}
+a:hover{
+	color: rgb(26, 255, 0);
+	text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.boy{
+	position: sticky;
+	text-shadow: 5px 5px 10px rgb(0, 0, 0);
+	
+}
+span{
+	position: fixed;
+	left: 42%;
+	bottom: 65%;
+	/*left: 30%;
+	top: 30%;*/
+	padding: 0px 0px 0px 50px;
+	color: rgb(238, 13, 28);
+	text-shadow: 5px 5px 10px rgb(56, 3, 230);
+}

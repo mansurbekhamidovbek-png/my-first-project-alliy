@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mening saytim </title>
+</head>
+<body>
+    <h1>
+         Welome  
+        </h1>
+     
+       You can leave your information on our site <br><br>
+     
+     Visit<a href="http://62.72.1.166:4012/post"> Example Website </a>for more information.<br><br>
+
+     <h2> Our Users</h2><br>
+    <div>
+      <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td> john@gmail.com</td>
+                    <td> Male</td>
+                    
+                </tr>
+                <tr>
+                    <td>Umida</td>
+                    <td>umida@gmail.com</td>
+                    <td>Female</td>
+                    
+                </tr>
+                 <tr>
+                    <td>Martin</td>
+                    <td>martin@gmail.com</td>
+                    <td>Male</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+     <h1> Please full fill all input </h1>
+     <form action="http://62.72.1.166:4012/post" 
+  method="POST">
+     <label for="name_id"> NAME: </label>
+    <input 
+    type="text"
+     name="NAME"
+     placeholder="name"
+     required
+      /><br><br>
+       <label for="email"> EMAIL </label>
+  <input type="email" id="email" name="email" required
+  placeholder="email"/><br><br>
+   <label for="PASSWORD_ID"> PASSWORD </label>
+  <input
+  type="password"
+  name="password"
+  id="PASSWORD_ID"
+  placeholder="password"
+  required 
+  /><br><br>
+  
+<label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" /><label
+        for="male"
+        >erkak</label
+      >
+      <input type="radio" id="female" name="gender" value="female" /><label
+        for="female"
+        >ayol</label>
+  <br><br />
+ <label for="language"> Country: </label>
+  <select id="language" name="lang">
+    <!-- <option selected disabled > Select </option> -->
+      <option class="eng"> ENGLISH </option>
+      <option class="uz"> UZBEK </option>
+      <option class="kr"> KOREA </option>
+    </select><br><br />
+    <button type="submit"> Submit </button> 
+ </form>    
+</body>
+</html>

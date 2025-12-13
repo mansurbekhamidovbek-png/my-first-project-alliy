@@ -1,0 +1,51 @@
+/* CSS BACKGROUND STYLES */
+/*
+*
+body {
+	background-color: #9d929d;
+}*/
+
+.members_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.members_table td,
+ .members_table th {
+	border: 1px solid rgb(2, 36, 23);
+	padding: 8px;
+	text-align: center;
+	background-color: #23eab8;
+	color: rgb(48, 3, 228);
+	
+}
+.members_table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #d6ea23;
+	color: rgb(18, 41, 215);
+}
+.members_table tr:nth-child(even) {
+	background-color: #f9e1e1;
+}
+.members_table tr:hover {
+	background-color: #3db0b2;
+}
+.title {
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.big{
+	font-size: 48px;
+	text-align: center;
+	color: #ffffff;
+}.bg-frame{
+	position: fixed;
+	inset: 0;
+	z-index: -1; 
+	background-image: var(--frame-url);
+	background-repeat: no-repeat;
+	background-position: center top;

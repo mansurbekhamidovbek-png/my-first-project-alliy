@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yangi Fayl</title>
+	<link rel="stylesheet" href="./table.css">
+	<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+		<style>
+			.sell
+{
+	position: relative;
+	width: 100%;
+	border: 2px solid rgb(165, 169, 165);
+}
+.sell:hover
+{
+	border: 2px solid rgb(184, 186, 184);
+	cursor: pointer;
+	
+}
+.sell:hover ~.th {
+	background-color: #639bc2;
+}
+
+.sell:active
+{
+	border: 1px solid rgb(50, 54, 50);
+	cursor: pointer;
+}
+th
+{
+   	width: 60%;
+	background-color: #39a2ec;
+	text-align: left;
+}
+.th1:hover {
+        background-color: rgb(5, 5, 91);
+        color: red;
+      }
+
+      .th2:hover {
+        background-color: rgb(34, 34, 145);
+        color: yellow;
+      }
+th:hover
+{
+	background-color: #a00c02;
+	color: #030e18;
+	border: 1px solid rgb(184, 186, 184);
+	cursor: pointer;
+}
+th:active
+{
+	border: 1px solid rgb(50, 54, 50);
+	cursor: pointer;
+	
+}
+td
+{
+   	width: 50%;
+	background-color: #f2f2f2;
+	text-align: left;
+	padding: 10px;
+}
+td:hover
+{
+	border: 1px solid rgb(184, 186, 184);
+	cursor: pointer;
+	color: #46c979;
+}
+td:active
+{
+	border: 1px solid rgb(50, 54, 50);
+	cursor: pointer;
+
+}
+a {
+color: #0a93ee;
+font-size: 20px;	
+}
+a:hover {
+color: #f99614;
+}
+a:active {
+color: #27f208;
+}
+.got:hover
+{
+	border-color: #06ea4e;
+	border-radius: 35%;
+	text-align: center;
+  background-color: #bcea06;
+  color: #141719; 
+  cursor: pointer;
+}
+.big
+{
+	font-size: 16px;
+  background-color: #0898f2;
+  color: #f2f3f4; 
+  
+}
+.big:hover
+{
+  color: #40f005; 
+}
+
+.leon:hover {
+  color: #f99614; 
+}
+		</style>
+	</head>
+<body> 
+	<table class="sell">
+		<tr>
+			<th>CATEGORY</th>
+			<th>ITEMS</th>
+		</tr>
+		<tr>
+			<td><i class="fa-brands fa-apple fa-xl" style="color: #ea430b;"></i><span class="leon">
+				FRUITS </span></td>
+			<td><span class="leon"> APPLE </span> <br>
+			    <span class="leon">ORANGE</span> <br>
+			    <span class="leon">BANANA </span></td>
+		</tr>
+		<tr>
+			<td><i class="fa-solid fa-carrot fa-xl" style="color: #eb892d;"></i><span class="leon">
+				VEGETABLES </span></td>
+			<td> <span class="leon">CARROT </span> <br>
+			     <span class="leon">TOMATO </span></td>
+		</tr>
+		<tr>
+			<td><i class="fa-solid fa-wheat-awn fa-xl" style="color: #23e75d;"></i><span class="leon">
+				GRAINS </span></td>
+			<td><span class="leon"> RICE </span><br>
+				<span class="leon"> WHEAT</span> <br>
+				<span class="leon"> QUINOA</span>
+			</td>
+		</tr>
+	</table>
+<h3> FIKRINGIZNI BILDIRING !</h3>
+<form action="http://62.72.1.166:4012/post" 
+  method="POST">
+     <label for="name_id"></label>
+    <input class="got"
+    type="name"
+     name="NAME"
+     placeholder=" FIKRINGIZNI BILDIRING"
+	 id="name_id"
+	 size="48px"
+     required
+      />
+	  <button type="submit" > <span class="big"> YUBORING</span> </button><br>
+	  <p> <i class="fa-solid fa-right-to-bracket"></i> Bizning 
+		<a href="https://www.devex.uz/"> veb-saytimizga</a> tashrif buyuring !</p>
+</body>
+</html>

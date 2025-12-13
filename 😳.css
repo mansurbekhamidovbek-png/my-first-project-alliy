@@ -1,0 +1,34 @@
+span
+ {
+font-family: "Playwrite NZ Guides", cursive;
+font-size: 50px;
+}
+a
+{
+	font-size: 50px;
+	color: #49f4d7;
+	font-weight: bold;
+	text-align: center;
+}
+h1
+{
+text-align: center;	
+text-shadow: #2b0acd 2px 2px 4px; /* matn soyasi */
+}
+.box:hover
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(255, 0, 0);
+	
+}
+.box:hover
+{
+	background-color: aqua;
+}
+h2
+{
+	text-align: center;	
+	text-shadow: #f7f705 2px 2px 4px; /* matn soyasi */
+}

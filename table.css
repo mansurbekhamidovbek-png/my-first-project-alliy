@@ -1,0 +1,94 @@
+
+.sell
+{
+	position: relative;
+	width: 100%;
+	border: 2px solid rgb(165, 169, 165);
+}
+.sell:hover
+{
+	border: 2px solid rgb(184, 186, 184);
+	cursor: pointer;
+	
+}
+.sell:hover ~.th {
+	background-color: #025ea0;
+}
+
+.sell:active
+{
+	border: 1px solid rgb(50, 54, 50);
+	cursor: pointer;
+}
+th
+{
+   	width: 60%;
+	background-color: #1e9bf4;
+	text-align: left;
+}
+th:hover
+{
+	background-color: #a00c02;
+	color: #0b08cf;
+	border: 1px solid rgb(184, 186, 184);
+	cursor: pointer;
+}
+th:active
+{
+	border: 1px solid rgb(50, 54, 50);
+	cursor: pointer;
+	
+}
+td
+{
+   	width: 50%;
+	background-color: #f2f2f2;
+	text-align: left;
+	padding: 10px;
+}
+td:hover
+{
+	border: 1px solid rgb(184, 186, 184);
+	cursor: pointer;
+	color: #46c979;
+}
+td:active
+{
+	border: 1px solid rgb(50, 54, 50);
+	cursor: pointer;
+
+}
+a {
+color: #0a93ee;
+font-size: 20px;	
+}
+a:hover {
+color: #f99614;
+}
+a:active {
+color: #27f208;
+}
+.got:hover
+{
+	border-color: #06ea4e;
+	border-radius: 35%;
+	text-align: center;
+  background-color: #bcea06;
+  color: #141719; 
+  cursor: pointer;
+}
+.big
+{
+	font-size: 16px;
+  background-color: #0898f2;
+  color: #f2f3f4; 
+  
+}
+.big:hover
+{
+  color: #40f005; 
+}
+
+.leon:hover {
+  color: #f99614; 
+}

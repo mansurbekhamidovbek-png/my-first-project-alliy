@@ -1,0 +1,89 @@
+/* css video darsligi orqali tayyorlandi */
+*
+h1 /*sarlavha boshi*/
+{
+color: #0d00ff; /* sarlavha rangi */
+font-size: 48px;  /* sarlavha razmeri */
+text-align: center; /* sarlavha joylashuvi */ 
+}
+h2 /* 2-sarlavha boshi*/
+{
+color: #f12905; /* sarlavha rangi */
+font-size: 36px;  /* sarlavha rangi */
+text-align: center; /* sarlavha rangi */
+}
+/* backraund va borderni boshlanishi
+text dzaynlari bilan*/
+body 
+{
+background-color: #65ee0479;    /* Orqa fonning rangi */
+}
+.border_box 
+{
+display: inline-block;   /*  */
+width: 200px;      /* katak kengligi */
+height: 240px;   /* katak balandligi */
+background-color: rgb(132, 14, 222);
+border-top: 1px solid red;
+border-right: 3px dashed green;
+border-bottom: 5px dotted blue;
+border-left: 7px double rgb(242, 238, 238);
+line-height: 18px;   /* vertikal markazlash */
+color: rgb(255, 255, 255); /* matn rangi */
+font-size: 16px; /* matn razmeri */
+text-align: center; /* matn joylashuvi */
+text-shadow: 2px 2px 4px #ef0909; /* matn soyasi */
+margin: 10px; /* Tashqi tomondan bo'shjoy razmeri */
+padding: 10px; /* ichki tomondan bo'shjoy razmeri */
+/* border-style: solid;
+border-width: 2px;
+border-color: blue; */
+border: 5px solid #ff0000;    
+border-radius: 25px; /* burchaklarni yumaloqlash */
+margin: 20px;   
+padding: 15px;
+text-align: center;
+
+}
+/* backraund va borderni tugashi */
+.best
+{
+    text-shadow: #ff0000 2px 3px 2px; /* matn soyasi */
+    font-size: 24px; /* matn razmeri */
+}
+.oil
+{
+  text-shadow: 2px 2px 5px #ee0808; /* matn soyasi */
+  font-size: 40px; /* matn razmeri */  
+}
+/* CSS FONTS STYLES */
+
+
+
+ 
+
+p {
+    font-family: 'Arial',Helvetica , sans-serif; /* shrift oilasi */
+    font-size: 900; /* shrift qalinligi */
+    font-size: 20px; /* shrift razmeri */
+    font-style: normal; /* shrift uslubi 
+    QO'SHIMCHA YOUTUBEDAN URGANGANIM */
+    text-decoration: none; /* matn bezagi */
+    text-transform: none; /* matn transformatsiyasi */
+    line-height: 1; /* qator balandligi */
+    letter-spacing: normal; /* harf orasidagi masofa */
+    word-spacing: normal; /* so'z orasidagi masofa */
+    color: #edf81d; /* matn rangi */
+    text-align: justify; /* matn joylashuvi */
+}
+/* CSS FONTS STYLES END */
+span
+ {
+font-family: "Playwrite NZ Guides", cursive;
+font-size: 50px;
+}
+h4
+{
+text-align: center;	
+text-shadow: #2b0acd 2px 2px 4px; /* matn soyasi */
+}

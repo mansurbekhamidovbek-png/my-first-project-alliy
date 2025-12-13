@@ -1,0 +1,10 @@
+*::backdrop {
+  background-color: rebeccapurple;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}

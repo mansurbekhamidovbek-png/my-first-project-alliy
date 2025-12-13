@@ -1,0 +1,22 @@
+/* Syntax , Selector and CSS */
+
+body {
+    background-color: #84e2b1;
+}
+h1 {
+    color: #da1111;
+    text-align: center;
+}
+.paragraph {
+    color: #eb2424;
+    
+}
+#idname {
+    
+}
+.big_title { color: blue;
+    
+}
+span {
+    font-size: 24px;color: #24e421;
+}

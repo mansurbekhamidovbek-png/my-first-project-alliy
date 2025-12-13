@@ -1,0 +1,27 @@
+img {
+position: absolute;
+top: 0%;
+left:%;
+z-index: -1;
+}
+h1{
+text-align: center;
+font-size: bold;
+font-size: 50px;
+color: rgb(49, 203, 231);
+}
+p{
+text-align: center;
+color: rgb(73, 236, 76);
+font-size: 20px;
+}
+.alex{
+	width: 200px;
+	height: 100px;
+
+	background-color: rgb(246, 255, 0);
+	color: #f32323;
+	font-style: center;
+
+	overflow-x: scroll;
+}

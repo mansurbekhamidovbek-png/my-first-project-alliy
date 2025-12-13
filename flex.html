@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FLEX-CONTAINER</title>
+	<link rel="stylesheet" href="./flex.css">
+	<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+		<style>
+			.flex-container1 {
+	width: 40%;
+    height: 120px;
+
+	display: flex;
+	flex-direction: row;
+	
+
+	background-color: aquamarine;
+	
+}
+
+.flex-container2 {
+	width: 40%;
+    height: 120px;
+
+	display: flex;
+	flex-direction:row-reverse;
+	
+
+	background-color: rgb(23, 241, 81);
+}
+.flex-container3 {
+     width: 40%;
+	height: 120px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items:flex-end;
+	
+	background-color: rgb(246, 152, 52);
+
+    
+}
+.flex-container4 {
+    width: 40%;
+	height: 120px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: aqua;
+}
+.flex-container5 {
+   width: 40%;
+    height: 120px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	
+	background-color: cadetblue;
+}
+.flex-container6 {
+	width: 40%;
+	height: 120px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+
+	background-color: rgb(87, 124, 56);
+}
+.flex-container7 {
+    width: 15%;
+	height: 720px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content:;
+	
+	position: absolute;
+	top: 1%;
+	left: 40.1%;
+
+	background-color: mediumseagreen;
+	
+}
+.flex-container8 {
+	width: 10%;
+	height: 720px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	
+	position: absolute;
+	top: 1%;
+	left: 50.1%;
+
+	background-color: rgb(182, 239, 11);
+}
+.flex-container9 {
+
+     width: 10%;
+	height: 720px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	position: absolute;
+	top: 1%;
+	left: 60.1%;
+	background-color: rgb(189, 125, 155);
+	
+}
+
+.flex-container10 {
+	 width: 10%;
+	height: 720px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	position: absolute;
+	top: 1%;
+	left: 70.1%;
+	background-color: rgb(3, 250, 143);
+}
+.flex-container11 {
+     width: 10%;
+	height: 720px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+
+	position: absolute;
+	top: 1%;
+	left: 80.1%;
+	background-color: rgb(188, 198, 194);
+}
+.flex-container12 {
+	 width: 10%;
+	height: 720px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items:flex-end;
+
+	position: absolute;
+	top: 1%;
+	left: 90.1%;
+	background-color: rgb(248, 137, 52);
+}
+.flex-container13 {
+	width: 350px;
+	height: 300px;
+
+	display: flex;
+	flex-direction:column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+
+	
+	background-color: rgb(113, 72, 190);
+	
+}
+.flex-container14 {
+     width: 360px;
+	height: 300px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:flex-end;
+	flex-wrap: wrap-reverse;
+
+	position: absolute;
+	top: 89.5%;
+	left: 24.5%;
+
+	background-color: rgb(182, 239, 11);
+}
+.flex-container15 {
+     width: 350px;
+	height: 300px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items:flex-start;
+	flex-wrap: wrap-reverse;
+
+	position: absolute;
+	top: 89.5%;
+	left: 49%;
+
+	background-color: rgb(72, 201, 240);
+}
+.flex-container16 {
+     width: 385px;
+	height: 300px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items:center;
+	flex-wrap: wrap-reverse;
+
+	position: absolute;
+	top: 89.5%;
+	left: 73.3%;
+
+	background-color: rgb(144, 221, 20);
+}
+.leon {
+	width: 80px;
+	height: 60px;
+
+	background-color: #210ef3;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	color: #d61212; 
+    text-align: center;
+	padding-top: 1%;
+	
+	
+
+	
+	font-size: 48px;
+	
+}
+		</style>
+</head>
+<body>
+	<div class="flex-container1">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	<div class="flex-container2">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	<div class="flex-container3">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	<div class="flex-container4">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	<div class="flex-container5">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	<div class="flex-container6">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	<div class="flex-container7">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	<div class="flex-container8">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	</div>
+	<div class="flex-container9">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	</div>
+	<div class="flex-container10">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	</div>
+	<div class="flex-container11">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	</div>
+	<div class="flex-container12">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+	</div>
+	</div>
+	<div class="flex-container13">
+		<div class="leon"><b><i class="fa-solid fa-1 fa-bounce" style="color: #f11809;"></i></b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+		<div class="leon"><b>7</b></div>
+		<div class="leon"><b>8</b></div>
+		<div class="leon"><b>9</b></div>
+		<div class="leon"><b>10</b></div>
+		<div class="leon"><b>11</b></div>
+		<div class="leon"><b>12</b></div>
+	</div>
+	<div class="flex-container14">
+		<div class="leon"><b>1</b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+		<div class="leon"><b>7</b></div>
+		<div class="leon"><b>8</b></div>
+		<div class="leon"><b>9</b></div>
+		<div class="leon"><b>10</b></div>
+		<div class="leon"><b>11</b></div>
+		<div class="leon"><b>12</b></div>
+	</div>
+	<div class="flex-container15">
+		<div class="leon"><b>1</b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+		<div class="leon"><b>7</b></div>
+		<div class="leon"><b>8</b></div>
+		<div class="leon"><b>9</b></div>
+		<div class="leon"><b>10</b></div>
+		<div class="leon"><b>11</b></div>
+		<div class="leon"><b>12</b></div>
+	</div>
+	<div class="flex-container16">
+		<div class="leon"><b>1</b></div>
+		<div class="leon"><b>2</b></div>
+		<div class="leon"><b>3</b></div>
+		<div class="leon"><b>4</b></div>
+		<div class="leon"><b>5</b></div>
+		<div class="leon"><b>6</b></div>
+		<div class="leon"><b>7</b></div>
+		<div class="leon"><b>8</b></div>
+		<div class="leon"><b>9</b></div>
+		<div class="leon"><b>10</b></div>
+		<div class="leon"><b>11</b></div>
+		<div class="leon"><b>12</b></div>
+	</div>
+</body>
+</html>
