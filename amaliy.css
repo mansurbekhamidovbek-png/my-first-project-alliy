@@ -1,0 +1,43 @@
+div {
+    
+	margin-top:100px;
+	margin-left: 100px;
+	width: 350px;
+	height: 350px;
+
+	transform: tyranslate(50px, 50px); 
+	margin-top: 50%;
+	transform: rotate(5deg);
+	transform: scale(0,5 0,5);
+    
+
+	background-color: rgb(21, 215, 199);
+}
+div:hover {
+	background-color: rgb(255, 0, 0);
+}
+.box
+ {
+	margin: 30%;
+	margin-left: 30%;
+	width: 100px;
+	height: 100px;
+
+	background-color: rgb(68, 217, 61);
+
+}
+.box:hover {
+	background-color: rgb(13, 175, 220);
+}
+
+.boy
+{
+	width: 300px;
+	height: 300px;
+
+	animation: boy 4s   timing-function delay iteration-count direction fill-mode;
+
+	background-color: rgb(209, 52, 12);
+
+
+}
